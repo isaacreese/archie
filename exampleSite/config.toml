@@ -4,7 +4,7 @@ title = "Archie"
 theme="archie"
 themesDir="../.."
 
-copyright = "© Athul"
+copyright = "© Isaac Reese"
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true

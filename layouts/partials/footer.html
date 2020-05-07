@@ -2,7 +2,7 @@
 <hr>
 {{- range $index, $key := .Site.Params.Social -}}
 <a class="soc" href="{{ $key.url }}" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a>|
-{{- end -}} ⚡️
+{{- end }} {{.Site.Copyright}}
 </footer>
 {{ if not .Site.IsServer }}
 {{ template "_internal/google_analytics_async.html" . }}
