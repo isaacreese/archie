@@ -1,5 +1,5 @@
 {{ define "main" }}
-
+{{ .Content }}
 <ul class="posts">
 	{{- range .Data.Pages -}}
 		{{- if (not (in (.Site.Params.excludedTypes | default (slice "page")) .Type)) -}}
